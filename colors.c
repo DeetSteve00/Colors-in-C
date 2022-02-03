@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <windows.h>
 #include <string.h>
-#include <conio.h>
 
 int color(int color, char text[1000]) {
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
@@ -10,5 +9,5 @@ int color(int color, char text[1000]) {
 }
 int main(){
     color(/*Color goes here*/, /*Text goes here*/);
-return 0;
+    return 0;
 }
