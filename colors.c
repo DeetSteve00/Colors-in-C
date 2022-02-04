@@ -5,7 +5,7 @@
 int color(int color, char text[1000]) {
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
     printf(text);
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 1);
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 }
 int main(){
     color(/*Color goes here*/, /*Text goes here*/);
