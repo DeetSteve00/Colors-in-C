@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <windows.h>
-#include <string.h>
 
 int color(int color, char text[1000]) {
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
